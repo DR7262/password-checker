@@ -2,9 +2,9 @@
 # Requested by: Fred Flintstone
 # Author: DR7262
 # Date written: 04/06/2024
-# Date tested and approved: 2/1/2022
+# Date tested and approved: ##/##/####
 # Revision History:
-# 2/1/2022 changed the name of the file variable
+# 06/06/2024 - Updated password length to have a minimum of 14 characters
 
 import sys
 
@@ -12,7 +12,7 @@ print("Password Checker V0.1")
 
 user_pw = input("Please enter your password:")
 
-# 10 - 25 is the current acceptable password length
+# 14 - 25 is the current acceptable password length
 if len(user_pw) not in range(10, 25):
     print("Password is not strong enough - please revise.")
     sys.exit()
